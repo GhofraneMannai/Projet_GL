@@ -19,21 +19,28 @@ public class Vacance_sur_mesure extends ReservationManager {
 
     @Override
     public void cancelReservation() {
-        System.out.println("Customized vacation reservation canceled: " +
+        super.cancelReservation();
+        // Send cancellation notification
+        Notification cancellationNotification = new Notification("Customized vacation reservation canceled: " +
                 "destinations=" + destinations +
                 ", nbreDestination=" + nbreDestination +
                 ", nbrePersonne=" + nbrePersonne +
                 ", options=" + options +
                 ", typeDestination=" + typeDestination);
+        publish(cancellationNotification);
     }
 
     @Override
     public void confirmReservation() {
-        System.out.println("Customized vacation reservation confirmed: " +
+        super.confirmReservation();
+        // Send confirmation notification
+        Notification confirmationNotification = new Notification("Customized vacation reservation confirmed: " +
                 "destinations=" + destinations +
                 ", nbreDestination=" + nbreDestination +
                 ", nbrePersonne=" + nbrePersonne +
                 ", options=" + options +
                 ", typeDestination=" + typeDestination);
+        publish(confirmationNotification);
+       
     }
 }

@@ -28,6 +28,8 @@ public class Main {
         Reservation_evenement eventReservation = new Reservation_evenement("pending", 50, 5);
 
         // Confirmation et annulation des réservations
+        System.out.println("Vacation sur mesure : ");
+        System.out.println("Confirmation Reservation : ");
         customVacation.confirmReservation();
         customVacation.cancelReservation();
         hotelReservation.confirmReservation();

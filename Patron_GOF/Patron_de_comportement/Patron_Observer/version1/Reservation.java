@@ -9,11 +9,13 @@ public class Reservation extends ReservationManager {
 
     @Override
     public void cancelReservation() {
-        System.out.println("Reservation canceled: etat=" + etat + ", prix=" + prix);
+        Notification confirmationNotification = new Notification("Reservation canceled: etat=" + etat + ", prix=" + prix);
+        publish(confirmationNotification);
     }
 
     @Override
     public void confirmReservation() {
-        System.out.println("Reservation confirmed: etat=" + etat + ", prix=" + prix);
+        Notification confirmationNotification = new Notification("Reservation confirmed: etat=" + etat + ", prix=" + prix);
+        publish(confirmationNotification);
     }
 }

@@ -8,21 +8,23 @@ public class Compte implements Client {
         this.MotDePasse = motDePasse;
     }
 
-    public void afficher() {
-        // Implémentation de la méthode pour afficher les informations du compte
+    public String getEmail() {
+        return this.Email;
     }
 
-    public void ajouter() {
-        // Implémentation de la méthode pour ajouter des informations au compte
+    public void setEmail(String Email) {
+        this.Email = Email;
     }
 
-    public void modifier() {
-        // Implémentation de la méthode pour modifier les informations du compte
+    public String getMotDePasse() {
+        return this.MotDePasse;
     }
 
-    public void supprimer() {
-        // Implémentation de la méthode pour supprimer le compte
+    public void setMotDePasse(String MotDePasse) {
+        this.MotDePasse = MotDePasse;
     }
+
+  
 
     @Override
     public void receiveNotification(Notification notification) {

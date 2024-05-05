@@ -26,12 +26,12 @@ public class ReservationManager {
 
     public void cancelReservation() {
 
-        System.out.println("hello");
+       
     }
 
     public void confirmReservation() {
       
-        System.out.println("hello");
+        
     }
 
     public void publish(Notification notification) {
@@ -39,14 +39,18 @@ public class ReservationManager {
         if (reservationType != null) {
             sendNotification(notification, reservationType);
         }
+        System.out.println(notification.getMessage());
+      
     }
 
     private void sendNotification(Notification notification, String reservationType) {
         List<Client> subscribedClients = clients.getOrDefault(reservationType, new ArrayList<>());
         for (Client client : subscribedClients) {
             client.receiveNotification(notification);
+        
         }
     }
+    
 
     private String extractReservationType(String message) {
         String[] parts = message.split(":");
