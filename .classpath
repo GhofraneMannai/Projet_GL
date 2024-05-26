@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="Patron_GOF/Patron_de_comportement/Patron_Observer/version1/|Patron_GOF/Patron_de_comportement/Patron_Observer/|PrincipeSolide/Single Responsibility Principle/" kind="src" path=""/>
+	<classpathentry excluding="version1/" kind="src" path="Patron_GOF/Patron_de_comportement/Patron_Observer"/>
+	<classpathentry kind="src" path="Patron_GOF/Patron_de_comportement/Patron_Observer/version1"/>
+	<classpathentry kind="src" path="PrincipeSolide/Single Responsibility Principle"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

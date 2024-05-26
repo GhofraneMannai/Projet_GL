@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Exemple",
+      "request": "launch",
+      "mainClass": "Patron_GOF.Patron_de_comportement.Patron_Observer.Exemple",
+      "projectName": "Projet GL_87bcd47b"
+    },
+    {
+      "type": "java",
+      "name": "Main1",
+      "request": "launch",
+      "mainClass": "Main1",
+      "projectName": "Projet GL_87bcd47b"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Patron_Grasp.Patron_indirection.Application_exemple.Main",
+      "projectName": "Projet GL_87bcd47b"
+    },
+    {
+      "type": "java",
+      "name": "Exemple",
+      "request": "launch",
+      "mainClass": "Patron_Grasp.Patron_indirection.Application_exemple.Exemple",
+      "projectName": "Projet GL_87bcd47b"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "Main",
