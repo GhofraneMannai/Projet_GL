@@ -1,5 +1,5 @@
 
-
+package GenerationJavaAutomatique;
 /**
  * @author Faten
  * @version 1.0

@@ -1,5 +1,4 @@
-
-
+package GenerationJavaAutomatique;
 
 /**
  * @author Faten
@@ -8,11 +7,11 @@
  */
 public class Hotel {
 
-	private String Description;
+	private texte Description;
 	private Array image;
 	private String localisation;
 	private String nom_hotel;
-	private String options;
+	private object options;
 	private int promo;
 	private int rating;
 
