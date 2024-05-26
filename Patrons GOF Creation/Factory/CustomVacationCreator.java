@@ -1,4 +1,4 @@
-public class CustomVacationFactory implements ReservationFactory {
+public class CustomVacationCreator extends ReservationCreator {
     @Override
     public Reservation createReservation() {
         return new CustomVacation();
