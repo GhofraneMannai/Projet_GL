@@ -15,12 +15,11 @@ public class Vacance_sur_mesure extends ReservationManager {
         this.typeDestination = typeDestination;
     }
 
-    // Getter and setter methods for the fields (not shown here for brevity)
+
 
     @Override
     public void cancelReservation() {
         super.cancelReservation();
-        // Send cancellation notification
         Notification cancellationNotification = new Notification("Customized vacation reservation canceled: " +
                 "destinations=" + destinations +
                 ", nbreDestination=" + nbreDestination +
@@ -33,7 +32,7 @@ public class Vacance_sur_mesure extends ReservationManager {
     @Override
     public void confirmReservation() {
         super.confirmReservation();
-        // Send confirmation notification
+      
         Notification confirmationNotification = new Notification("Customized vacation reservation confirmed: " +
                 "destinations=" + destinations +
                 ", nbreDestination=" + nbreDestination +

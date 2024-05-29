@@ -28,8 +28,8 @@ public class Compte implements Client {
 
     @Override
     public void receiveNotification(Notification notification) {
-        // Implémentation de la méthode pour recevoir la notification
+      
         System.out.println("Notification received by " + Email + ": " + notification.getMessage());
-        // Vous pouvez ajouter ici la logique pour traiter la notification
+
     }
 }

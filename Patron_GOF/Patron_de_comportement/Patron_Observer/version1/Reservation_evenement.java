@@ -6,11 +6,11 @@ public class Reservation_evenement extends Reservation {
         this.Nbre_place = Nbre_place;
     }
 
-    // Getter and setter methods for Nbre_place (not shown here for brevity)
+  
 
     @Override
     public void cancelReservation() {
-        super.cancelReservation(); // Appel de la méthode de la classe parente
+        super.cancelReservation(); 
      
             System.out.println("Event reservation canceled: " +
                     "Nbre_place=" + this.Nbre_place);

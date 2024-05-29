@@ -16,7 +16,7 @@ public class Main {
         gestionnaire.creerReservation(periode, "En attente", 50.0, 2, "Détails de la réservation");
 
 
-        Reservation_Event reservation = gestionnaire.getReservations().get(0); // Assumant qu'il y a au moins une réservation
+        Reservation_Event reservation = gestionnaire.getReservations().get(0); 
         gestionnaire.validerReservation(reservation);
 
         System.out.println("Etat de la réservation: " + reservation.getEtat());
