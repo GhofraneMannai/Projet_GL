@@ -27,9 +27,7 @@ public class Evenement {
         this.places = places;
     }
 
-    // Getters et setters...
-
-    // Méthodes de définition (setters)
+  
     public void setNom(String nom) { this.nom = nom; }
     public void setType(String type) { this.type = type; }
     public void setDescription(String description) { this.description = description; }

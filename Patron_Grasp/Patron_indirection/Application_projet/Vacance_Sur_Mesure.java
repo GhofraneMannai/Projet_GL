@@ -17,9 +17,7 @@ public class Vacance_Sur_Mesure {
         this.options = options;
     }
 
-    // Getters et setters...
-
-    // Méthodes de définition (setters)
+  
     public void setType_Destination(String type_Destination) { this.type_Destination = type_Destination; }
     public void setNbreDestination(int nbreDestination) { this.nbreDestination = nbreDestination; }
     public void setDestination(String[] destination) { this.destination = destination; }

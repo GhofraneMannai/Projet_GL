@@ -19,7 +19,7 @@ public class Reservation_Event {
 
 
 
-    // Méthodes de définition (setters)
+
     public void setPeriode(ArrayList<String> periode) { this.periode = periode; }
     public void setEtat(String etat) { this.etat = etat; }
 
