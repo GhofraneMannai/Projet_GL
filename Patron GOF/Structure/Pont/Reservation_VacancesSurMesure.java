@@ -1,12 +1,12 @@
 public class Reservation_VacancesSurMesure implements Reservation {
     public int idVacancesSurMesure;
     public String typeDestination;
-    public int nbrDestinations;
-    public String destinations;
-    public String periode;
-    public int nbrPersonnes;
+    public Number nbrDestinations;
+    public ArrayList<String> destinations;
+    public Number periode;
+    public Number nbrPersonnes;
     public Object Personnes;
-    public ArrayList<Object> options = new ArrayList<Object>();
+    public ArrayList<Object> options;
 
     @Override
     public void verifierDispo() {

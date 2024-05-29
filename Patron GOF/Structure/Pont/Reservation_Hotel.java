@@ -1,9 +1,9 @@
 public class Reservation_Hotel implements Reservation {
     public int idReservationHotel;
-    public String periode;
+    public ArrayList<Object> periode;
     public String etat;
-    public String prix;
-    public int nbrChambres;
+    public Number prix;
+    public Number nbrChambres;
     public Object details;
 
     @Override

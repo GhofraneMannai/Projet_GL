@@ -2,7 +2,7 @@ public class Profil {
      String nom;
      String prenom;
      String email;
-     String telephone;
+     Number telephone;
      String motDePasse;
 
     public Profil(String nom, String prenom, String email, String telephone, String motDePasse) {

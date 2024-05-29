@@ -4,10 +4,10 @@ public class Hotel {
     private String nomHotel;
     private String localisation;
     private String description;
-    private double rating;
-    private List<Object> images;
+    private Number rating;
+    private ArrayList<Object> images;
     private Object options;
-    private double promo;
+    private Number promo;
     private List<Chambre> chambres;
 
     public Hotel(int idHotel, String nomHotel, String localisation, String description, double rating) {
@@ -59,7 +59,7 @@ public class Hotel {
         return options;
     }
 
-    public double getPromo() {
+    public Number getPromo() {
         return promo;
     }
 
@@ -67,7 +67,7 @@ public class Hotel {
         this.options = options;
     }
 
-    public void setPromo(double promo) {
+    public void setPromo(Number promo) {
         this.promo = promo;
     }
 

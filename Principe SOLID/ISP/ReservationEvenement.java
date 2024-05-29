@@ -1,6 +1,6 @@
 class Reservation_Evenement implements ReserveEvent {
-    public Integer id_reservation_event;
-    public Array<Object> periode;
+    public int id_reservation_event;
+    public ArrayList<Object> periode;
     public String etat;
     public Number nb_places;
     public Number prix;

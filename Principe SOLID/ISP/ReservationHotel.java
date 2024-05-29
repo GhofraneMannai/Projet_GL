@@ -1,7 +1,7 @@
 class Reservation_Hotel implements ReserveHotel {
-    public Integer id_reservation_hotel;
+    public int id_reservation_hotel;
     public String etat;
-    public Array<Object> periode;
+    public ArrayList<Object> periode;
     public Number nb_chambres;
     public Number prix;
     public Object detailsObject;

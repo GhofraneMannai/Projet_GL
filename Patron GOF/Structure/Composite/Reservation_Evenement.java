@@ -1,9 +1,9 @@
 public class Reservation_Evenement implements Reservation {
     public int idReservationEvent;
-    public String periode;
+    public ArrayList<Object> periode;
     public String etat;
-    public String prix;
-    public int nbrPlaces;
+    public Number prix;
+    public Number nbrPlaces;
     public Object details;
 
     @Override
