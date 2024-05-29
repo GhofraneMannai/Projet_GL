@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Date;
 
-// Classe Evenement
+
 public class Evenement {
     private String nomEvenement;
     private String typeEvenement;
@@ -27,15 +27,15 @@ public class Evenement {
     }
 
     public void creerEvenement() {
-        // Code pour créer un événement
+
     }
 
     public void modifierEvenement() {
-        // Code pour modifier un événement
+       
     }
 
     public void supprimerEvenement() {
-        // Code pour supprimer un événement
+       
     }
 
     public void ajouterNote(Note note) {
@@ -47,7 +47,7 @@ public class Evenement {
     }
 }
 
-// Classe Note
+
 class Note {
     private int valeur;
     private String commentaire;
@@ -58,19 +58,19 @@ class Note {
     }
 
     public void creerNote() {
-        // Code pour créer une note
+        
     }
 
     public void modifierNote() {
-        // Code pour modifier une note
+        
     }
 
     public void supprimerNote() {
-        // Code pour supprimer une note
+        
     }
 }
 
-// Classe Programme
+
 class Programme {
     private String description;
     private ArrayList<Activite> activites;
@@ -81,15 +81,15 @@ class Programme {
     }
 
     public void ajouterProgramme() {
-        // Code pour ajouter un programme
+        
     }
 
     public void modifierProgramme() {
-        // Code pour modifier un programme
+        
     }
 
     public void supprimerProgramme() {
-        // Code pour supprimer un programme
+       
     }
 
     public void ajouterActivite(Activite activite) {
@@ -108,19 +108,19 @@ class Activite {
     }
 
     public void ajouterActivite() {
-        // Code pour ajouter une activité
+       
     }
 
     public void modifierActivite() {
-        // Code pour modifier une activité
+        
     }
 
     public void supprimerActivite() {
-        // Code pour supprimer une activité
+      
     }
 }
 
-// Classe VacanceSurMesure
+
 class VacanceSurMesure {
     private String typeDestination;
     private int nbPersonnes;
@@ -138,15 +138,15 @@ class VacanceSurMesure {
     }
 
     public void ajouterVacance() {
-        // Code pour ajouter une vacance
+        
     }
 
     public void modifierVacance() {
-        // Code pour modifier une vacance
+       
     }
 
     public void supprimerVacance() {
-        // Code pour supprimer une vacance
+       
     }
 
     public void ajouterDestination(Destination destination) {
@@ -154,7 +154,7 @@ class VacanceSurMesure {
     }
 }
 
-// Classe Destination
+
 class Destination {
     private String nom;
     private String description;
@@ -167,14 +167,14 @@ class Destination {
     }
 
     public void ajouterDestination() {
-        // Code pour ajouter une destination
+       
     }
 
     public void modifierDestination() {
-        // Code pour modifier une destination
+
     }
 
     public void supprimerDestination() {
-        // Code pour supprimer une destination
+    
     }
 }
